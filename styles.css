@@ -20,6 +20,18 @@ body {
 
 header {
   background-color: var(--purple);
+  height: 30px;
+  color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  padding-left: 10px;
+  padding-top: 5;
 }
 
 main {
