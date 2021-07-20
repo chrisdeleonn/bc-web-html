@@ -46,6 +46,7 @@ li {
 .login-btn {
   color: var(--orange);
   float: right;
+  margin-right: 2%;
 }
 
 main {
@@ -58,6 +59,10 @@ section {
 }
 
 .hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 300px;
   background-color: var(--yellow);
   background: url(/img/Boca-Code-OG.jpg);
@@ -70,12 +75,19 @@ section {
 
 .hero-section > h1 {
   text-align: center;
+  display: flex;
 }
 
 .about-section {
+  display: flex;
   background-color: var(--white);
+  justify-content: space-around;
 }
 
 footer {
   background-color: var(--orange);
+}
+
+article {
+  text-align: center;
 }
