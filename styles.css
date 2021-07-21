@@ -63,8 +63,6 @@ section {
   justify-content: center;
   align-items: center;
 
-  height: 300px;
-  background-color: var(--yellow);
   background: url(/img/Boca-Code-OG.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,21 +71,23 @@ section {
   background-blend-mode: screen;
 }
 
-.hero-section > h1 {
-  text-align: center;
-  display: flex;
+.about-section {
+  background-color: var(--white);
+  padding: 5%;
+  height: 100%;
 }
 
-.about-section {
+.about-section-group {
   display: flex;
-  background-color: var(--white);
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article {
+  max-width: 300px;
+  margin-top: 30px;
 }
 
 footer {
   background-color: var(--orange);
-}
-
-article {
-  text-align: center;
 }

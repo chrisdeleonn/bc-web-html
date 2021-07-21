@@ -27,14 +27,32 @@
 
     <main>
       <section class="hero-section">
-        <h1 id="hero"></h1>
-        Hero
+        <h1 id="hero">Hero</h1>
       </section>
       <section class="about-section">
           <h2>About</h2>
-      <article><h3>Art1</h3></article>
-      <article><h3>Art2<h3></article>
-      </section>
+          <div class="about-section-group"></div>
+          <article>
+            <h3>Article 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptates similique, recusandae laborum accusantium eveniet
+              delectus esse possimus aliquid asperiores ullam, dicta harum iusto
+              nam nemo! Placeat architecto sit minus labore?
+            </p>
+            </article>
+
+            <article>
+              <h3>Article 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              ipsum neque iste excepturi cumque dolor, obcaecati magni inventore
+              aliquid animi atque vitae iusto culpa porro ex. Labore, dolorem
+              quaerat. Aliquid.
+            </p>
+            </article>
+            </section>
+          </div>
+
       <section id="contact">
         <h2>Contact</h2>
         <form onsubmit="handlesubmit(event)">
@@ -51,23 +69,18 @@
           <label for="message">
             Message:
             <textarea name="message" cols="30" rows="4"> </textarea>
-            <input type="submit" value="send" />
           </label>
           <br />
+            <input type="submit" value="send" />
         </form>
       </section>
     </main>
 
     <footer>
       <ul>
-        Home
-      </ul>
-      <ul>
-        About
-      </ul>
-      <ul>
-        Contact
-      </ul>
+       <li>Home</li>
+       <li>About</li>
+       <li>Contact</li>
     </footer>
     <!--<script src="script" href="scripts.js"></script>-->
   </body>
